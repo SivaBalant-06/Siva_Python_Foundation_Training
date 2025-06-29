@@ -1,4 +1,4 @@
-# CarConnect - Vehicle Rental System
+# CarConnect - A Car REntal System
 
 ## Overview
 CarConnect is a Python-MySQL based vehicle rental management system. It supports admin and customer roles, providing full CRUD operations for vehicles, reservations, and user profiles.
@@ -16,7 +16,7 @@ CarConnect is a Python-MySQL based vehicle rental management system. It supports
 - unittest for testing
 
 ## Project Structure
-
+```
 CARCONNECT/
 │
 ├── config/
@@ -68,6 +68,7 @@ CARCONNECT/
 │   └── DBPropertyUtil.py
 │
 └── README.md
+```
 
 ## How to Set Up and Run
 
@@ -81,6 +82,9 @@ CARCONNECT/
 2. Setup the database using provided schema.
 3. Update `config/db.properties` with your DB credentials.
 4. Run `test_services.py` to validate functionality.
+
+## CONCLUSION
+The CarConnect case study successfully demonstrates how a modular and scalable Python backend system can be built to support real-world business operations such as vehicle rental. Through clean architecture, layered components, and reliable database integration, it provides a foundation for expanding into a full-fledged enterprise application. With comprehensive unit tests, exception handling, and separation of concerns, the solution ensures reliability and future maintainability.
 
 ## Author
 Siva Balan T — Hexaware Case Study Project
